@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AkomaConnect — Hospital Management System for African Healthcare</title>
+  <meta name="description" content="AkomaConnect is a complete HMIS/EMR built for African healthcare — offline-first, HeFRA & Data-Protection ready, deployable in the cloud or on-premise. A product of Offin Healthcare." />
+  <meta property="og:title" content="AkomaConnect — HMIS/EMR for African Healthcare" />
+  <meta property="og:description" content="Complete hospital management that keeps working offline and is compliant by design. By Offin Healthcare." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="AkomaConnect home">
+        <img src="assets/logo.svg" alt="" width="34" height="34" />
+        <span class="wm"><span class="wm-a">Akoma</span><span class="wm-c">:</span><span class="wm-n">Connect</span></span>
+      </a>
+      <nav class="nav-links" id="menu">
+        <a href="#modules">Modules</a>
+        <a href="#why">Why</a>
+        <a href="#deploy">Deployment</a>
+        <a href="#tiers">Tiers</a>
+        <a class="btn btn-primary" href="#demo">Request a demo</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">By Offin Healthcare</span>
+          <h1>The hospital management system built for <span class="hl">African healthcare</span>.</h1>
+          <p class="lead">A complete HMIS/EMR — from the consulting room to the finance office — that keeps working when the internet doesn't, and is compliant with your country's health and data-protection laws out of the box.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary btn-lg" href="#demo">Request a demo</a>
+            <a class="btn btn-ghost btn-lg" href="#modules">Explore the modules</a>
+          </div>
+          <ul class="trust">
+            <li>Offline-first</li>
+            <li>HeFRA &amp; Data-Protection ready</li>
+            <li>FHIR R4</li>
+            <li>Cloud or on-premise</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb"></div>
+          <div class="card-float c1">Sepsis risk · <b>confidence 0.82</b></div>
+          <div class="card-float c2">Ward A · <b>92% occupancy</b></div>
+          <div class="card-float c3">Synced · <b>3 offline visits</b></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value props -->
+    <section class="section" id="why">
+      <div class="wrap">
+        <h2 class="section-title">Why facilities choose AkomaConnect</h2>
+        <div class="grid grid-3">
+          <article class="vcard"><div class="vicon">⚡</div><h3>Works offline</h3><p>Power cuts and patchy connectivity won't stop care. The app caches your workspace, queues what you enter, and syncs automatically when you're back online.</p></article>
+          <article class="vcard"><div class="vicon">🛡️</div><h3>Compliant by design</h3><p>Jurisdiction-aware: HeFRA licensing and Ghana's Data Protection Act (Act 843) with its 72-hour breach clock. Profiles for GH, KE, NG, ZA.</p></article>
+          <article class="vcard"><div class="vicon">🧩</div><h3>One system</h3><p>Clinical, ancillary, patient flow, billing, finance, HR and analytics on a single patient record — data flows instead of being re-keyed.</p></article>
+          <article class="vcard"><div class="vicon">🔌</div><h3>Interoperable</h3><p>Built-in HL7 FHIR R4, HL7/MLLP device gateways (ECG, vitals, analysers) and accounting integrations (QuickBooks, Sage, Tally, Odoo).</p></article>
+          <article class="vcard"><div class="vicon">🔒</div><h3>Reliable &amp; secure</h3><p>A simple PostgreSQL core, MFA, encrypted patient identifiers, full audit trails, automated backups and a documented DR plan.</p></article>
+          <article class="vcard"><div class="vicon">🧠</div><h3>Safe, transparent AI</h3><p>Decision support that advises only — always confidence-scored, human-in-the-loop, override-logged and fairness-monitored.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modules -->
+    <section class="section section-alt" id="modules">
+      <div class="wrap">
+        <h2 class="section-title">One platform, every department</h2>
+        <p class="section-sub">Modular by design — switch on what you need; capabilities scale by tier.</p>
+        <div class="grid grid-2 mod-grid">
+          <article class="mcard">
+            <h3><span class="mtag mtag-clinical">Clinical</span></h3>
+            <ul><li>OPD &amp; Encounters · diagnoses · clinical pathways</li><li>Maternity &amp; ANC · PMTCT</li><li>Pharmacy · five-rights · FEFO · controlled drugs</li><li>Rehabilitation · gait &amp; EMG analytics</li><li>Community Health (CHW) · immunisation</li><li>Dental · Physiotherapy · Dietary · Mortuary</li></ul>
+          </article>
+          <article class="mcard">
+            <h3><span class="mtag mtag-ancillary">Ancillary</span></h3>
+            <ul><li>Laboratory (LIS) · QC · critical-value alerts</li><li>Radiology (RIS) · structured reporting</li><li>Blood Bank · cross-match · cold-chain</li><li>CSSD · sterilisation cycles</li><li>Supply Chain · procure-to-stock · three-way match</li></ul>
+          </article>
+          <article class="mcard">
+            <h3><span class="mtag mtag-care">Patient Care</span></h3>
+            <ul><li>Master Patient Index · de-duplication</li><li>Patient Journey board · queue &amp; voice call-out</li><li>Inpatient (ADT) · live ward map · occupancy forecast</li><li>Day Case · Emergency · Referrals</li></ul>
+          </article>
+          <article class="mcard">
+            <h3><span class="mtag mtag-back">Back-Office</span></h3>
+            <ul><li>Billing &amp; Payments · mobile money &amp; cards</li><li>Finance &amp; General Ledger · budgets · assets</li><li>HR &amp; Payroll · country statutory rules</li><li>Financial Integration Gateway → accounting</li></ul>
+          </article>
+          <article class="mcard mcard-wide">
+            <h3><span class="mtag mtag-addon">Add-Ons</span></h3>
+            <ul class="addons"><li>AI &amp; CDS</li><li>Telemedicine</li><li>Patient Portal (SMS)</li><li>Call Centre</li><li>Analytics &amp; MIS</li><li>Compliance Center</li><li>Device Gateways (VitaLink)</li><li>Federated Learning</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deployment -->
+    <section class="section" id="deploy">
+      <div class="wrap">
+        <h2 class="section-title">Your data, your choice</h2>
+        <p class="section-sub">The same software runs three ways — you're never locked in.</p>
+        <div class="grid grid-3">
+          <article class="dcard"><h3>Cloud</h3><p>We host and maintain it; sign in from anywhere. Fastest to start, lowest operational burden.</p></article>
+          <article class="dcard"><h3>On-premise</h3><p>Runs on a server inside your facility for full data residency and offline resilience — ideal where connectivity or sovereignty matters.</p></article>
+          <article class="dcard"><h3>Hybrid</h3><p>A central cloud for the group with on-premise nodes at each site.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tiers -->
+    <section class="section section-alt" id="tiers">
+      <div class="wrap">
+        <h2 class="section-title">Scales with your facility</h2>
+        <div class="grid grid-3">
+          <article class="tcard"><div class="tname">Small</div><div class="tbeds">50–100 beds</div><p>Core clinical, pharmacy, lab, billing and the patient index.</p></article>
+          <article class="tcard tcard-feature"><div class="tname">Medium</div><div class="tbeds">100–400 beds</div><p>Adds specialties, inpatient, finance, HR and analytics.</p></article>
+          <article class="tcard"><div class="tname">Large</div><div class="tbeds">400+ beds</div><p>The full platform: AI/CDS, telemedicine, device gateways and advanced add-ons.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="demo">
+      <div class="wrap cta-inner">
+        <h2>See AkomaConnect with your workflows.</h2>
+        <p>Book a guided demo and we'll walk through the modules that matter to your facility.</p>
+        <a class="btn btn-primary btn-lg" href="mailto:info@offinhealthcaregh.com?subject=AkomaConnect%20demo%20request">Request a demo</a>
+        <p class="cta-alt">or email <a href="mailto:info@offinhealthcaregh.com">info@offinhealthcaregh.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <div class="foot-brand">
+        <span class="wm"><span class="wm-a">Akoma</span><span class="wm-c">:</span><span class="wm-n">Connect</span></span>
+        <p>A product of <strong>Offin Healthcare Ltd.</strong>, Accra, Ghana.</p>
+      </div>
+      <nav class="foot-links">
+        <a href="#modules">Modules</a>
+        <a href="#deploy">Deployment</a>
+        <a href="#tiers">Tiers</a>
+        <a href="#demo">Request a demo</a>
+      </nav>
+    </div>
+    <div class="wrap foot-legal">© <span id="yr"></span> Offin Healthcare Ltd. AkomaConnect. Module availability varies by tier.</div>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
