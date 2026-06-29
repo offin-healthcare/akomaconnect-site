@@ -16,7 +16,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="alternate" hreflang="en" href="https://akomaconnect.offinhealthcaregh.com/" />
   <link rel="alternate" hreflang="fr" href="https://akomaconnect.offinhealthcaregh.com/fr/" />
-  <link rel="stylesheet" href="/styles.css?v=4" />
+  <link rel="alternate" hreflang="sw" href="https://akomaconnect.offinhealthcaregh.com/sw/" />
+  <link rel="stylesheet" href="/styles.css?v=5" />
 </head>
 <body>
   <header class="nav">
@@ -29,7 +30,14 @@
         <a href="#why">Pourquoi</a>
         <a href="#deploy">Déploiement</a>
         <a href="#tiers">Niveaux</a>
-        <span class="lang"><a href="/">EN</a><a href="/fr/" class="is-on">FR</a></span>
+        <details class="lang">
+          <summary aria-label="Langue">FR</summary>
+          <div class="lang-menu">
+            <a href="/">English</a>
+            <a href="/fr/" class="is-on">Français</a>
+            <a href="/sw/">Kiswahili</a>
+          </div>
+        </details>
         <a class="btn btn-primary" href="#demo">Demander une démo</a>
       </nav>
       <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
