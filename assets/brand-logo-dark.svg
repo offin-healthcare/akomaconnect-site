@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" role="img" aria-label="Akoma:Connect — the heart of your hospital">
+  <title>Akoma:Connect</title>
+  <defs>
+    <linearGradient id="ak-heart-d" x1="22" y1="10" x2="80" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6FE0F0"/>
+      <stop offset=".55" stop-color="#4A90E2"/>
+      <stop offset="1" stop-color="#2B6FA8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mark (no drop shadow on dark; brighter gradient) -->
+  <g transform="translate(20,25)">
+    <path d="M50 84 C 28 68 12 53 12 34 C 12 21 22 12 34 12 C 42 12 48 17 50 23
+             C 52 17 58 12 66 12 C 78 12 88 21 88 34 C 88 53 72 68 50 84 Z"
+          fill="url(#ak-heart-d)"/>
+    <path d="M34 17 C 26 17 20 22 19 30 C 24 22 31 19 38 21 C 36 18 35 17 34 17 Z"
+          fill="#ffffff" opacity="0.18"/>
+    <path d="M20 50 H38 L43 50 L47 32 L52 64 L56 50 L60 44 L64 50 H80"
+          fill="none" stroke="#ffffff" stroke-width="4.5"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Wordmark (light on dark) -->
+  <text x="140" y="80" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="48" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">Akoma<tspan
+        fill="#5EDEDE" font-weight="700">:</tspan><tspan fill="#A8C6E8" font-weight="600">Connect</tspan></text>
+
+  <!-- Tagline -->
+  <text x="142" y="108" font-family="Inter, 'Segoe UI', system-ui, sans-serif"
+        font-size="13" font-weight="500" letter-spacing="3" fill="#8fa3b8">THE HEART OF YOUR HOSPITAL</text>
+</svg>

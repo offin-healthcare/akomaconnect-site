@@ -23,7 +23,10 @@ img { max-width: 100%; }
 .btn-ghost { background: transparent; color: var(--navy); border-color: var(--line); }
 .btn-ghost:hover { border-color: var(--primary); color: var(--primary); }
 
-/* Wordmark */
+/* Brand logo lockup */
+.brand-logo { height: 34px; width: auto; display: block; }
+.foot-logo { height: 38px; width: auto; }
+/* Wordmark (fallback / legacy) */
 .wm { font-weight: 800; font-size: 1.25rem; letter-spacing: -.5px; }
 .wm-a { color: var(--navy); } .wm-c { color: var(--bright); } .wm-n { color: var(--blue); font-weight: 700; }
 
@@ -36,6 +39,11 @@ img { max-width: 100%; }
 .nav-links a:hover { color: var(--primary); }
 .nav-links .btn-primary { color: #fff; }
 .nav-toggle { display: none; font-size: 1.4rem; background: none; border: 0; color: var(--navy); }
+/* Language switcher */
+.lang { display: inline-flex; gap: .25rem; align-items: center; font-size: .82rem; font-weight: 700; }
+.lang a { color: var(--muted); padding: .15rem .4rem; border-radius: 6px; }
+.lang a.is-on { color: var(--navy); background: var(--line); }
+.lang a:hover { color: var(--primary); }
 
 /* Hero */
 .hero { background: radial-gradient(1200px 500px at 80% -10%, #e9f3fb 0, transparent 60%), linear-gradient(180deg, #fff 0, var(--bg) 100%); padding: 4.5rem 0 4rem; }

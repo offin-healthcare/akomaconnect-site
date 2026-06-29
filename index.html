@@ -8,24 +8,28 @@
   <meta property="og:title" content="AkomaConnect — HMIS/EMR for African Healthcare" />
   <meta property="og:description" content="Complete hospital management that keeps working offline and is compliant by design. By Offin Healthcare." />
   <meta property="og:type" content="website" />
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/icon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="alternate" hreflang="en" href="https://akomaconnect.offinhealthcaregh.com/" />
+  <link rel="alternate" hreflang="fr" href="https://akomaconnect.offinhealthcaregh.com/fr/" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="nav">
     <div class="wrap nav-inner">
       <a class="brand" href="#top" aria-label="AkomaConnect home">
-        <img src="assets/logo.svg" alt="" width="34" height="34" />
-        <span class="wm"><span class="wm-a">Akoma</span><span class="wm-c">:</span><span class="wm-n">Connect</span></span>
+        <img class="brand-logo" src="assets/brand-logo.svg" alt="AkomaConnect" />
       </a>
       <nav class="nav-links" id="menu">
         <a href="#modules">Modules</a>
         <a href="#why">Why</a>
         <a href="#deploy">Deployment</a>
         <a href="#tiers">Tiers</a>
+        <span class="lang"><a href="/" class="is-on">EN</a><a href="/fr/">FR</a></span>
         <a class="btn btn-primary" href="#demo">Request a demo</a>
       </nav>
       <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
@@ -83,7 +87,7 @@
         <div class="grid grid-2 mod-grid">
           <article class="mcard">
             <h3><span class="mtag mtag-clinical">Clinical</span></h3>
-            <ul><li>OPD &amp; Encounters · diagnoses · clinical pathways</li><li>Maternity &amp; ANC · PMTCT</li><li>Pharmacy · five-rights · FEFO · controlled drugs</li><li>Rehabilitation · gait &amp; EMG analytics</li><li>Community Health (CHW) · immunisation</li><li>Dental · Physiotherapy · Dietary · Mortuary</li></ul>
+            <ul><li>Maternity &amp; ANC · PMTCT</li><li>Pharmacy · five-rights · FEFO · controlled drugs</li><li>Rehabilitation · gait &amp; EMG analytics</li><li>Community Health (CHW) · immunisation</li><li>Dental · Physiotherapy · Dietary · Mortuary</li></ul>
           </article>
           <article class="mcard">
             <h3><span class="mtag mtag-ancillary">Ancillary</span></h3>
@@ -91,15 +95,15 @@
           </article>
           <article class="mcard">
             <h3><span class="mtag mtag-care">Patient Care</span></h3>
-            <ul><li>Master Patient Index · de-duplication</li><li>Patient Journey board · queue &amp; voice call-out</li><li>Inpatient (ADT) · live ward map · occupancy forecast</li><li>Day Case · Emergency · Referrals</li></ul>
+            <ul><li>Master Patient Index · de-duplication</li><li>OPD &amp; encounters · diagnoses · clinical pathways</li><li>Patient Journey board · queue &amp; voice call-out</li><li>Inpatient (ADT) · live ward map · occupancy forecast</li><li>Day Case · Emergency · Referrals</li></ul>
           </article>
           <article class="mcard">
             <h3><span class="mtag mtag-back">Back-Office</span></h3>
-            <ul><li>Billing &amp; Payments · mobile money &amp; cards</li><li>Finance &amp; General Ledger · budgets · assets</li><li>HR &amp; Payroll · country statutory rules</li><li>Financial Integration Gateway → accounting</li></ul>
+            <ul><li>Billing &amp; Payments · mobile money &amp; cards</li><li>Finance &amp; General Ledger · budgets · assets</li><li>HR &amp; Payroll · country statutory rules</li><li>Clinical Engineering · Quality · Incident reporting</li><li>Financial Integration Gateway → accounting</li></ul>
           </article>
           <article class="mcard mcard-wide">
             <h3><span class="mtag mtag-addon">Add-Ons</span></h3>
-            <ul class="addons"><li>AI &amp; CDS</li><li>Telemedicine</li><li>Patient Portal (SMS)</li><li>Call Centre</li><li>Analytics &amp; MIS</li><li>Compliance Center</li><li>Device Gateways (VitaLink)</li><li>Federated Learning</li></ul>
+            <ul class="addons"><li>AI &amp; CDS</li><li>Telemedicine</li><li>Patient Portal (SMS)</li><li>Call Centre</li><li>Analytics &amp; MIS</li><li>Compliance Center</li><li>Device Gateways (VitaLink)</li><li>Federated Learning</li><li>Digital Twin</li><li>Wellness &amp; Screening</li><li>Voice Documentation</li><li>Blockchain Consent</li></ul>
           </article>
         </div>
       </div>
@@ -144,13 +148,14 @@
   <footer class="foot">
     <div class="wrap foot-inner">
       <div class="foot-brand">
-        <span class="wm"><span class="wm-a">Akoma</span><span class="wm-c">:</span><span class="wm-n">Connect</span></span>
+        <img class="foot-logo" src="assets/brand-logo-dark.svg" alt="AkomaConnect" />
         <p>A product of <strong>Offin Healthcare Ltd.</strong>, Accra, Ghana.</p>
       </div>
       <nav class="foot-links">
         <a href="#modules">Modules</a>
         <a href="#deploy">Deployment</a>
         <a href="#tiers">Tiers</a>
+        <a href="/AkomaConnect-brochure.pdf">Brochure (PDF)</a>
         <a href="#demo">Request a demo</a>
       </nav>
     </div>
