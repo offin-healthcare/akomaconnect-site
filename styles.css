@@ -24,8 +24,8 @@ img { max-width: 100%; }
 .btn-ghost:hover { border-color: var(--primary); color: var(--primary); }
 
 /* Brand logo lockup */
-.brand-logo { height: 30px; width: auto; display: block; }
-.foot-logo { height: 34px; width: auto; }
+.brand-logo { height: 32px; width: auto; display: block; }
+.foot-logo { height: 40px; width: auto; }
 /* Wordmark (fallback / legacy) */
 .wm { font-weight: 800; font-size: 1.25rem; letter-spacing: -.5px; }
 .wm-a { color: var(--navy); } .wm-c { color: var(--bright); } .wm-n { color: var(--blue); font-weight: 700; }
@@ -114,15 +114,21 @@ img { max-width: 100%; }
 .cta-alt { font-size: .9rem; } .cta-alt a { color: #fff; text-decoration: underline; }
 
 /* Footer */
-.foot { background: var(--navy); color: #aebfcd; padding: 2.6rem 0 1.4rem; }
-.foot-inner { display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
-.foot .wm-a, .foot .wm-n { color: #fff; }
-.foot-brand p { margin: .5rem 0 0; font-size: .9rem; }
-.foot-brand strong { color: #fff; }
-.foot-links { display: flex; gap: 1.2rem; flex-wrap: wrap; align-items: center; }
-.foot-links a { color: #cfe0ee; font-weight: 600; font-size: .9rem; }
-.foot-links a:hover { color: #fff; }
-.foot-legal { margin-top: 1.6rem; padding-top: 1.2rem; border-top: 1px solid rgba(255,255,255,.12); font-size: .8rem; color: #7e93a6; }
+.foot { background: var(--navy); color: #aebfcd; padding: 3rem 0 1.4rem; }
+.foot-grid { display: grid; grid-template-columns: 1.8fr 1fr 1fr 1.1fr; gap: 1.5rem 2rem; }
+.foot-col h4 { color: #fff; font-size: .95rem; margin: 0 0 .7rem; }
+.foot-col a { display: block; color: #cfe0ee; font-size: .9rem; padding: .24rem 0; }
+.foot-col a:hover { color: #fff; }
+.foot-tag { color: #fff; font-weight: 600; margin: .6rem 0 .35rem; }
+.foot-prod { font-size: .88rem; color: #aebfcd; }
+.foot-prod strong { color: #fff; }
+.foot-social { display: flex; gap: .55rem; }
+.foot-social a { width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,.08); display: inline-flex; align-items: center; justify-content: center; color: #cfe0ee; padding: 0; transition: background .15s, color .15s; }
+.foot-social a:hover { background: var(--blue); color: #fff; }
+.foot-social svg { width: 18px; height: 18px; fill: currentColor; }
+.foot-follow-note { font-size: .82rem; color: #7e93a6; margin-top: .7rem; }
+.foot-legal { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid rgba(255,255,255,.12); font-size: .8rem; color: #7e93a6; }
+@media (max-width: 760px){ .foot-grid { grid-template-columns: 1fr 1fr; } }
 
 /* Responsive */
 @media (max-width: 860px) {
