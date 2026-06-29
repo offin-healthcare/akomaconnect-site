@@ -24,8 +24,8 @@ img { max-width: 100%; }
 .btn-ghost:hover { border-color: var(--primary); color: var(--primary); }
 
 /* Brand logo lockup */
-.brand-logo { height: 24px; width: auto; display: block; }
-.foot-logo { height: 28px; width: auto; }
+.brand-logo { height: 30px; width: auto; display: block; }
+.foot-logo { height: 34px; width: auto; }
 /* Wordmark (fallback / legacy) */
 .wm { font-weight: 800; font-size: 1.25rem; letter-spacing: -.5px; }
 .wm-a { color: var(--navy); } .wm-c { color: var(--bright); } .wm-n { color: var(--blue); font-weight: 700; }
